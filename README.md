@@ -25,4 +25,4 @@ totalに消費税の1.08を掛け算してdocument.writeでtotalを表示する�
 ```
 
 # 解答例
-[解答例はこちら](http://codepen.io/anon/pen/oXggvR)
+[解答例はこちら](http://codepen.io/anon/pen/MwYYxL)
