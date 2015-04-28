@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+</head>
+<script>
+    // ここで中身を指定
+    var menu = {
+        '豚肉':380,//インデックスm:値menu[m]※数値だから'なし
+        'にんじん':90,
+        'じゃがいも':120,
+        'お米':2000
+    };
+    //数値の初期化※野呂さん回答
+    var total=0;
+    for ( var m in menu){
+    //繰り返したい内容だけをここに書く
+    total +=menu[m];//値
+    document.write(m+':'+menu[m]+'円');
+    };
+    /*
+小数点を切り上げる場合はMath.ceil()を使います。
+total = Math.ceil(total * 1.08);
+*/
+    //１度しか書きたくないから、forの中に入れない
+    document.write('<br>合計金額は'+total*1.08+'円です');
+    
+</script>
+<body>
+  
+</body>
+</html>
