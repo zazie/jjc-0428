@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+</head>
+<script>
+// ここに解答を記述
+var bascket = {
+	'豚肉' : 380,
+	'にんじん' : 90,
+	'じゃがいも' : 120,
+	'お米' : 2000
+};
+var tax = 1.08;
+var total = 0;
+  for (var item in bascket){
+      total += bascket[item]
+}
+document.write('<p>合計金額は' + (Math.floor(total * tax)) + '円です</p>')
+</script>
+<body>
+
+</body>
+</html>
